@@ -13,6 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class ApplicationStart {
 
     public static void main(String[] args) {
+        System.out.println("Hello World1111");
         SpringApplication.run(ApplicationStart.class, args);
         System.out.println("Hello World");
     }
