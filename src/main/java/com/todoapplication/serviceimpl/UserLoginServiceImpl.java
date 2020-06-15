@@ -12,7 +12,6 @@ public class UserLoginServiceImpl implements UserLoginService {
     @Autowired
     UserLoginRepository userLoginRepository;
 
-    @Override
     public UserLogin fetchLoginDetail(Integer userName) {
         return userLoginRepository.findByUserId(userName);
     }

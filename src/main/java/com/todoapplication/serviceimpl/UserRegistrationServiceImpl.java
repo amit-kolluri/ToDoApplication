@@ -12,7 +12,6 @@ public class UserRegistrationServiceImpl implements UserRegistrationService {
     @Autowired
     UserRegistrationRepository userRegistrationRepository;
 
-    @Override
     public String userRegistration(String user_name, String email, Integer phone, String address, String city, Integer zip, String state, String country) {
         UserDetails userDetails = new UserDetails();
         userDetails.setUser_name(user_name);
